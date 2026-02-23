@@ -2,3 +2,7 @@ fastapi
 uvicorn
 httpx
 watchfiles
+
+# test dependencies
+# pin pytest to the current major release; adjust as needed over time
+pytest>=7.0,<8
